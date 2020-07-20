@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap&stretch=expanded');
+
+body, header, footer {
+    width: 960px;
+    margin: auto;
+    font-family: 'IM Fell DW Pica SC';
+    color: #fafafa;
+    text-align: center;
+}
+
+body {
+    background-color: #000000;
+    background-size: 1024px;
+}
+
+.module1, .module2, .module3 {
+    background-color: #000000;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.big-text {
+    font-size: 200px;
+    height: 200px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.tiny-text {
+    font-size: 50px;
+    height: 60px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.module1 .big-text {
+    color: orangered;
+}
+
+.module1 .tiny-text {
+    color: orange;
+}
+
+.module2 .big-text {
+    color: yellow;
+}
+
+.module2 .tiny-text {
+    color: green;
+}
+
+.module3 .big-text {
+    color: blue;
+}
+
+.module3 .tiny-text {
+    color: purple;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    margin: 10px;
+}
